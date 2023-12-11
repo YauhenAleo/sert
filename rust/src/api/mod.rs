@@ -17,6 +17,8 @@
 pub mod blocking;
 pub use blocking::*;
 
+pub mod blocking;
+pub use blocking::*;
 use snarkvm_console::program::Network;
 
 use anyhow::{ensure, Result};
