@@ -1,18 +1,4 @@
-[package]
-name = "aleo-rust"
-version = "0.3.6"
-authors = [ "The Aleo Team <hello@aleo.org>" ]
-description = "Rust SDK for managing Aleo programs and communicating with the Aleo network"
-homepage = "https://aleo.org"
-readme = "README.md"
-repository = "https://github.com/AleoHQ/aleo"
-keywords = [
-  "aleo",
-  "cryptography",
-  "blockchain",
-  "decentralized",
-  "zero-knowledge"
-]
+
 categories = [ "cryptography::cryptocurrencies" ]
 include = [ "Cargo.toml", "src", "README.md", "LICENSE.md" ]
 license = "GPL-3.0"
