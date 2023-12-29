@@ -24,6 +24,16 @@ use snarkvm_synthesizer::{Block, Program, Transaction};
 
 use anyhow::{anyhow, bail, ensure, Result};
 use std::{convert::TryInto, ops::Range};
+use crate::AleoAPIClient;
+use snarkvm_console::{
+    account::{PrivateKey, ViewKey},
+    program::{Ciphertext, Network, ProgramID, Record},
+    types::Field,
+};
+use snarkvm_synthesizer::{Block, Program, Transaction};
+
+use anyhow::{anyhow, bail, ensure, Result};
+use std::{convert::TryInto, ops::Range};
 
 #[cfg(not(feature = "async"))]
 #[allow(clippy::type_complexity)]
