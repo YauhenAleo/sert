@@ -9,6 +9,17 @@
   color: white;
   font-size: 20px;
   font-weight: bold;
+}.logo {
+  float: left;
+  width: 125px;
+  height: 31px;
+}
+
+.logo:before {
+  content: "Aleo SDK";
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*
