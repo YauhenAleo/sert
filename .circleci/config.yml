@@ -1,12 +1,6 @@
 version: 2.1
 
-commands:
-  setup_environment:
-    description: "Setup testing environment"
-    parameters:
-      cache_key:
-        type: string
-        default: aleo-stable-cache
+
     steps:
       - run: set -e
       - setup_remote_docker
