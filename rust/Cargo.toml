@@ -20,6 +20,27 @@ version = "1"
 [dependencies.indexmap]
 version = "1.9.3"
 
+categories = [ "cryptography::cryptocurrencies" ]
+include = [ "Cargo.toml", "src", "README.md", "LICENSE.md" ]
+license = "GPL-3.0"
+edition = "2021"
+
+[[bench]]
+name = "account"
+path = "benches/account.rs"
+harness = false
+
+[[bench]]
+name = "private-key-encryption-at-rest"
+path = "benches/private_key_encryption.rs"
+harness = false
+
+[dependencies.anyhow]
+version = "1"
+
+[dependencies.indexmap]
+version = "1.9.3"
+
 [dependencies.once_cell]
 version = "1.13.1"
 
